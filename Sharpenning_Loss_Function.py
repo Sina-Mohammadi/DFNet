@@ -1,5 +1,12 @@
 from keras import backend as K
 
+
+'''Implementation of the proposed Sharpening Loss function.
+   The Sharpening Loss results in sharper foreground objects and less blurry predictions.
+   Moreover, as shown in the paper, the Sharpening Loss outperforms the Cross-entropy loss
+   by a significant margin in saliency detetction task'''
+
+
 def Sharpenning_Loss(Lambda):
 
   def L_F_and_L_MAE(y_true, y_pred):
