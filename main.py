@@ -66,7 +66,9 @@ class DFNet():
       if os.path.exists('./NASNet-mobile-no-top.h5'):
           pass
       else:
-          urlretrieve('https://github.com/titu1994/Keras-NASNet/releases/download/v1.2/NASNet-mobile-no-top.h5', './NASNet-mobile-no-top.h5')
+          urlretrieve('https://github.com/titu1994/Keras-NASNet/releases/download/v1.2/NASNet-mobile-no-top.h5',
+                      './NASNet-mobile-no-top.h5')
+          
       Backbone.load_weights('./NASNet-mobile-no-top.h5')
 
       Stages=[Backbone.output, Backbone.get_layer("activation_131").output,
@@ -80,7 +82,9 @@ class DFNet():
       if os.path.exists('./NASNet-large-no-top.h5'):
           pass
       else:
-          urlretrieve('https://github.com/titu1994/Keras-NASNet/releases/download/v1.2/NASNet-large-no-top.h5', './NASNet-large-no-top.h5')
+          urlretrieve('https://github.com/titu1994/Keras-NASNet/releases/download/v1.2/NASNet-large-no-top.h5',
+                      './NASNet-large-no-top.h5')
+          
       Backbone.load_weights('./NASNet-large-no-top.h5')
 
       Stages=[Backbone.output, Backbone.get_layer("activation_319").output,
@@ -89,7 +93,7 @@ class DFNet():
               # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 
     else:
-      raise ValueError("Enter the name of the model correctly! It must be one of the following options: VGG16, ResNet50, NASNetMobile, NASNetLarge")
+      raise ValueError("The name of the Backbone_model must be one of the following options: VGG16, ResNet50, NASNetMobile, NASNetLarge")
 
               # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 
@@ -104,7 +108,8 @@ class DFNet():
 
     ############### Feature Integration Network ##################
 
-    z = BilinearUpsampling(output_size=(ExtractedFeatures[0]._keras_shape[1]*2, ExtractedFeatures[0]._keras_shape[2]*2))(ExtractedFeatures[0])
+    z = BilinearUpsampling(output_size=(ExtractedFeatures[0]._keras_shape[1]*2,
+                                        ExtractedFeatures[0]._keras_shape[2]*2))(ExtractedFeatures[0])
 
     for i in range(len(ExtractedFeatures)-1):
       z = AMI_Module(z, ExtractedFeatures[i+1], ExtractedFeatures[i+1]._keras_shape[-1])
@@ -149,7 +154,8 @@ class DFNet():
                                                                     class_mode=None,seed=1,batch_size=self.batch_size)
 
     mask_generator_train = mask_datagen_train.flow_from_directory(self.train_set_directory+'Masks/',target_size=(352, 352),
-                                                                  class_mode=None,color_mode="grayscale",seed=1,batch_size=self.batch_size)
+                                                                  class_mode=None,color_mode="grayscale",seed=1,
+                                                                  batch_size=self.batch_size)
 
     self.train_generator = zip(image_generator_train, mask_generator_train)
     self.steps_per_epoch = len(image_generator_train) 
@@ -161,7 +167,8 @@ class DFNet():
     reduce_lr = ReduceLROnPlateau(monitor='loss', factor=0.1, patience=10, verbose=1, mode='min', min_delta=0.0001)
     #If the training loss does not decrease for 10 epochs, the learning rate is divided by 10.
     
-    check_point = ModelCheckpoint(self.save_directory+'ModelCheckpoint-{epoch:03d}-{loss:.4f}.hdf5',monitor='loss', verbose=1, save_best_only=True , mode='min')
+    check_point = ModelCheckpoint(self.save_directory+'ModelCheckpoint-{epoch:03d}-{loss:.4f}.hdf5',monitor='loss',
+                                  verbose=1, save_best_only=True , mode='min')
     
     logger = CSVLogger(self.save_directory+'logger.log',append=True)
     
@@ -174,8 +181,9 @@ class DFNet():
     
 if __name__ == "__main__":
     
-  DFNetModel=DFNet(batch_size=cfg.batch_size, learning_rate=cfg.learning_rate, epochs=cfg.epochs, train_set_directory=cfg.train_set_directory,
-        save_directory=cfg.save_directory, Backbone_model=cfg.Backbone_model, use_multiprocessing=cfg.use_multiprocessing, show_ModelSummary=cfg.show_ModelSummary)    
+  DFNetModel=DFNet(batch_size=cfg.batch_size, learning_rate=cfg.learning_rate, epochs=cfg.epochs,
+                   train_set_directory=cfg.train_set_directory, save_directory=cfg.save_directory, Backbone_model=cfg.Backbone_model,
+                   use_multiprocessing=cfg.use_multiprocessing, show_ModelSummary=cfg.show_ModelSummary)    
   
   DFNetModel.train()  
    
