@@ -11,5 +11,4 @@ parser.add_argument("--Backbone_model", type=str, default='VGG16')
 parser.add_argument("--use_multiprocessing", type=bool, default=True)
 parser.add_argument("--show_ModelSummary", type=bool, default=False)
 
-
 cfg = parser.parse_args()
