@@ -1,7 +1,7 @@
 from keras import backend as K
 K.set_image_data_format("channels_last")
 from Sharpenning_Loss_Function import Sharpenning_Loss
-from Modules_and_Upsample import MAG_Module, AMI_Module, BilinearUpsampling
+from modules_and_upsample import MAG_Module, AMI_Module, BilinearUpsampling
 from keras.layers import Conv2D, BatchNormalization, Activation  
 from keras.applications.vgg16 import VGG16
 from keras.applications.resnet50 import ResNet50
