@@ -147,7 +147,7 @@ class DFNet():
 
     image_datagen_train = ImageDataGenerator(rotation_range=12,horizontal_flip=True,preprocessing_function=preimage)
     
-    mask_datagen_train = ImageDataGenerator(x_categorical=2,rotation_range=12,horizontal_flip=True,preprocessing_function=premask)
+    mask_datagen_train = ImageDataGenerator(n_categorical=2,rotation_range=12,horizontal_flip=True,preprocessing_function=premask)
 
 
     image_generator_train = image_datagen_train.flow_from_directory(self.train_set_directory+'Images/',target_size=(352, 352),
