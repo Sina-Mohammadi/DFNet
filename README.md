@@ -21,4 +21,4 @@ Our paper can be found at [this link](https://www.sciencedirect.com/science/arti
 ![image](https://github.com/Sina-Mohammadi/DFNet/blob/master/figures/Visual%20Comparison.png)
 
 ## Our Sharpening Loss vs. Cross-entropy Loss visual comparison
-<img src="https://github.com/Sina-Mohammadi/DFNet/blob/master/figures/Sharpenning%20Loss%20vs.%20Cross-entropy%20Loss.png" width="450" height="530">
+<p align="center"><img src="https://github.com/Sina-Mohammadi/DFNet/blob/master/figures/Sharpenning%20Loss%20vs.%20Cross-entropy%20Loss.png" width="450" height="530"></p>
