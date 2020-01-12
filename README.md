@@ -9,6 +9,7 @@ Our paper can be found at [this link](https://www.sciencedirect.com/science/arti
 #### Modules:
 
 ![](https://github.com/Sina-Mohammadi/DFNet/blob/master/figures/Modules.PNG | width=20)
+<img src="https://github.com/Sina-Mohammadi/DFNet/blob/master/figures/Quantitative%20Comparison.PNG" width="48">
 
 
 ## Comparison with the state-of-the-art
