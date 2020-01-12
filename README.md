@@ -6,7 +6,7 @@ Our paper can be found at [this link](https://www.sciencedirect.com/science/arti
 ## Framework
 ![image](https://github.com/Sina-Mohammadi/DFNet/blob/master/figures/Framework.png)
 
-###Modules
+#### Modules
 
 ![image](https://github.com/Sina-Mohammadi/DFNet/blob/master/figures/Modules.PNG)
 
