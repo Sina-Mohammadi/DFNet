@@ -39,11 +39,8 @@ In addition to batch_size and Backbone_model, you can set these training configu
 ## Citation
 ```
 @article{noori2020dfnet,
-
   title={DFNet: Discriminative feature extraction and integration network for salient object detection},
-  
   author={Noori, Mehrdad and Mohammadi, Sina and Majelan, Sina Ghofrani and Bahri, Ali and Havaei, Mohammad},
-  
   journal={Engineering Applications of Artificial Intelligence},
   volume={89},
   pages={103419},
