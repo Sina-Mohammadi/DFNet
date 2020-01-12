@@ -36,7 +36,7 @@ python main.py --batch_size=8 --Backbone_model "VGG16"
 
 You can also try one of the following three options as the Backbone_model: "ResNet50" or "NASNetMobile" or "NASNetLarge"
 
-In addition to batch_size and Backbone_model, you can set these training configurations: ***learning_rate, epochs, train_set_directory, save_directory, use_multiprocessing, show_ModelSummary***
+In addition to batch_size and Backbone_model, you can set these training configurations: *learning_rate, epochs, train_set_directory, save_directory, use_multiprocessing, show_ModelSummary*
 
 ## Citation
 ```
