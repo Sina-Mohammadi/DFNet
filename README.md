@@ -3,6 +3,8 @@ Code repository for our paper "DFNet: Discriminative feature extraction and inte
 
 Our paper can be found at [this link](https://www.sciencedirect.com/science/article/abs/pii/S0952197619303252).
 
+You can also download the pre-computed saliency maps from [Google Drive](https://drive.google.com/open?id=17nwK9Q8sfVjCMcGC5rtnQiy9fQIeIjo_).
+
 ## Framework
 ![image](https://github.com/Sina-Mohammadi/DFNet/blob/master/figures/Framework.png)
 
@@ -28,13 +30,13 @@ Our Sharpening Loss guides the network to output saliency maps with higher certa
 ## Usage
 If you want to train the model with VGG16 Backbone, you can run
 
-`
+```
 python main.py --batch_size=8 --Backbone_model "VGG16"
-`
+```
 
 You can also try one of the following three options as the Backbone: "ResNet50" or "NASNetMobile" or "NASNetLarge"
 
-In addition to batch_size and Backbone_model, you can set these training configurations: learning_rate, epochs, train_set_directory, save_directory, Backbone_model, use_multiprocessing, show_ModelSummary
+In addition to batch_size and Backbone_model, you can set these training configurations: learning_rate, epochs, train_set_directory, save_directory, use_multiprocessing, show_ModelSummary
 
 ## Citation
 ```
