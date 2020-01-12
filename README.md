@@ -24,3 +24,7 @@ Our paper can be found at [this link](https://www.sciencedirect.com/science/arti
 Our Sharpening Loss guides the network to output saliency maps with higher certainty and less blurry salient objects which are much close to the ground truth compared to the Cross-entropy Loss.
 
 <p align="center"><img src="https://github.com/Sina-Mohammadi/DFNet/blob/master/figures/Sharpenning%20Loss%20vs.%20Cross-entropy%20Loss.png" width="420" height="500"></p>
+
+## Usage
+If you want to train the model, you can run
+'''python main.py --batch_size=2 --Backbone_model "VGG16"'''
