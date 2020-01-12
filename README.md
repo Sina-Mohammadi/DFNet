@@ -28,6 +28,4 @@ Our Sharpening Loss guides the network to output saliency maps with higher certa
 ## Usage
 If you want to train the model, you can run
 
-'''
-python main.py --batch_size=8 --Backbone_model "VGG16"
-'''
+'python main.py --batch_size=8 --Backbone_model "VGG16"'
