@@ -8,7 +8,7 @@ Our paper can be found at [this link](https://www.sciencedirect.com/science/arti
 
 #### Modules:
 
-![image](https://github.com/Sina-Mohammadi/DFNet/blob/master/figures/Modules.PNG =25x25)
+![image](https://github.com/Sina-Mohammadi/DFNet/blob/master/figures/Modules.PNG | width=20)
 
 
 ## Comparison with the state-of-the-art
