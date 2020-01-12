@@ -7,7 +7,6 @@ Our paper can be found at [this link](https://www.sciencedirect.com/science/arti
 ![image](https://github.com/Sina-Mohammadi/DFNet/blob/master/figures/Framework.png)
 
 #### Modules:
-
 <img src="https://github.com/Sina-Mohammadi/DFNet/blob/master/figures/Modules.PNG" width="720" height="415">
 
 
@@ -21,4 +20,4 @@ Our paper can be found at [this link](https://www.sciencedirect.com/science/arti
 ![image](https://github.com/Sina-Mohammadi/DFNet/blob/master/figures/Visual%20Comparison.png)
 
 ## Our Sharpening Loss vs. Cross-entropy Loss visual comparison
-![image](https://github.com/Sina-Mohammadi/DFNet/blob/master/figures/Sharpenning%20Loss%20vs.%20Cross-entropy%20Loss.png)
+<img src="https://github.com/Sina-Mohammadi/DFNet/blob/master/figures/Sharpenning%20Loss%20vs.%20Cross-entropy%20Loss.png" width="900 height="1075">
