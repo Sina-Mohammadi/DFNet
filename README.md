@@ -7,7 +7,7 @@ Our paper can be found at [this link](https://www.sciencedirect.com/science/arti
 ![image](https://github.com/Sina-Mohammadi/DFNet/blob/master/figures/Framework.png)
 
 #### Modules:
-<p align="center"><img src="https://github.com/Sina-Mohammadi/DFNet/blob/master/figures/Modules.PNG" img align="center" width="840" height="490"></p>
+<p align="center"><img src="https://github.com/Sina-Mohammadi/DFNet/blob/master/figures/Modules.PNG" img align="center" width="780" height="460"></p>
 
 
 ## Comparison with the state-of-the-art
