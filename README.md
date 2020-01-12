@@ -23,7 +23,7 @@ You can download the pre-computed saliency maps from [Google Drive](https://driv
 ![image](https://github.com/Sina-Mohammadi/DFNet/blob/master/figures/Visual%20Comparison.png)
 
 ## Our Sharpening Loss vs. Cross-entropy Loss visual comparison
-Our Sharpening Loss guides the network to output saliency maps with higher certainty and less blurry salient objects which are much close to the ground truth compared to the Cross-entropy Loss.
+Our Sharpening Loss guides the network to output saliency maps with higher certainty and less blurry salient objects which are much closer to the ground truth compared to the Cross-entropy Loss.
 
 <p align="center"><img src="https://github.com/Sina-Mohammadi/DFNet/blob/master/figures/Sharpenning%20Loss%20vs.%20Cross-entropy%20Loss.png" width="420" height="500"></p>
 
