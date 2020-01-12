@@ -18,7 +18,7 @@ You can download the pre-computed saliency maps from [Google Drive](https://driv
 ![image](https://github.com/Sina-Mohammadi/DFNet/blob/master/figures/Quantitative%20Comparison.PNG)
 
 
-2- Visual comparison
+2- Qualitative comparison
 
 ![image](https://github.com/Sina-Mohammadi/DFNet/blob/master/figures/Visual%20Comparison.png)
 
