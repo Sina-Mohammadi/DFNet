@@ -1,7 +1,7 @@
 # DFNet
 Keras code for our paper "DFNet: Discriminative feature extraction and integration network for salient object detection"
 
-Our paper can be found at [this link](https://www.sciencedirect.com/science/article/abs/pii/S0952197619303252).
+Our paper can be found at [ScienceDirect](https://www.sciencedirect.com/science/article/abs/pii/S0952197619303252) and [arXiv](https://arxiv.org/abs/2004.01573).
 
 You can download the pre-computed saliency maps from [Google Drive](https://drive.google.com/open?id=17nwK9Q8sfVjCMcGC5rtnQiy9fQIeIjo_) for datasets DUTS-TE,  ECSSD, DUT-OMRON, PASCAL-S, HKU-IS, SOD, THUR15K.
 
