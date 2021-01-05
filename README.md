@@ -4,6 +4,8 @@ Keras code for our paper "DFNet: Discriminative feature extraction and integrati
 Our paper can be found at: [ScienceDirect](https://www.sciencedirect.com/science/article/abs/pii/S0952197619303252) & [arXiv](https://arxiv.org/abs/2004.01573).
 
 ## !!News!!(April 2020) - Our new salient object detection model accepted by Pattern Recognition can be found at: [ScienceDirect](https://www.sciencedirect.com/science/article/abs/pii/S0031320320301072) & [arXiv](https://arxiv.org/abs/1911.13168)
+
+
 You can download the pre-computed saliency maps from: [Google Drive](https://drive.google.com/open?id=17nwK9Q8sfVjCMcGC5rtnQiy9fQIeIjo_) & [Baidu](https://pan.baidu.com/s/1XT7_oYit81ZI5QdBfYYh1Q) (extraction code: e2g7) for datasets DUTS-TE,  ECSSD, DUT-OMRON, PASCAL-S, HKU-IS, SOD, THUR15K.
 
 ## Framework
