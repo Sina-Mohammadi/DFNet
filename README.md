@@ -8,6 +8,7 @@ Our new salient object detection model accepted by Pattern Recognition can be fo
 
 ## Saliency Maps
 You can download the pre-computed saliency maps from: [Google Drive](https://drive.google.com/open?id=17nwK9Q8sfVjCMcGC5rtnQiy9fQIeIjo_) & [Baidu](https://pan.baidu.com/s/1XT7_oYit81ZI5QdBfYYh1Q) (extraction code: e2g7) for datasets DUTS-TE,  ECSSD, DUT-OMRON, PASCAL-S, HKU-IS, SOD, THUR15K.
+
 To evaluate the performance of salient object detection models using the predicted saliency map, you can use the code provided at: [GitHub](https://github.com/Mehrdad-Noori/Saliency-Evaluation-Toolbox)
 ## Framework
 ![image](https://github.com/Sina-Mohammadi/DFNet/blob/master/figures/Framework.png)
